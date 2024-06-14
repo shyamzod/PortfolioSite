@@ -17,13 +17,13 @@ export default function BioComponent() {
         </div>
       </div>
       <div className="flex flex-col items-center  mt-6 md:mt-0">
-        <img
+        {/* <img
           className="md:w-11/12 rounded-xl object-cover shadow"
           src="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg"
           alt="Shyam Zod"
-        />
+        /> */}
         <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
-          Follow On
+          Follow On --
           <div className="flex flex-row  items-center justify-between">
             <div>
               <a href="/" className="text-blue-500 hover:underline">

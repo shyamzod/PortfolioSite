@@ -9,9 +9,9 @@ export default function Page() {
     <div>
       <Navbar />
       <BioComponent />
-      <Skills />
+      {/* <Skills /> */}
       <Experience />
-      <Projects />
+      {/* <Projects /> */}
     </div>
   );
 }

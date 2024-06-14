@@ -11,18 +11,7 @@ export default function Navbar() {
   const [LoggedInUser, SetLoggedInUser] = useState("");
   const [LoggedInEmail, SetLoggedInUserEmail] = useState("");
 
-  async function logoutHandler() {
-    // const result = await axios.get("http://localhost:3000/user/logout", {
-    //   params: { username: localStorage.getItem("UserName") },
-    // });
-    // const res = await result.data;
-    // if (res) {
-    //   localStorage.clear();
-    //   SetUserLoggedIn(false);
-    //   SetLoggedInUser("");
-    //   SetLoggedInUserEmail("");
-    // }
-  }
+  async function logoutHandler() {}
 
   return (
     <div>
