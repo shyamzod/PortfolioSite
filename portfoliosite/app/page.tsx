@@ -1,11 +1,17 @@
-import Image from "next/image";
+import BioComponent from "./components/BioComponent";
+import Experience from "./components/Experience";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <h1>Under Construction!!</h1>
-      </div>
-    </main>
+    <div>
+      <Navbar />
+      <BioComponent />
+      <Skills />
+      <Experience />
+      <Projects />
+    </div>
   );
 }
