@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import axios from "axios";
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
