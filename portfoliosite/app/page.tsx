@@ -15,6 +15,9 @@ export default function Page() {
         <div className="flex justify-center items-center">
           <BioComponent />
         </div>
+        <div>
+          <Skills />
+        </div>
         <div className="md:flex md:flex-row">
           <div className="mx-10">
             <Experience />

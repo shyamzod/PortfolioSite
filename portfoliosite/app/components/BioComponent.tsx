@@ -8,7 +8,9 @@ import {
   FaLocationDot,
   FaPhone,
   FaEnvelope,
+  FaThreads,
 } from "react-icons/fa6";
+import Image from "next/image";
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
@@ -18,7 +20,7 @@ export default function BioComponent() {
         </div>
         <div className="flex justify-center items-center mt-4 md:mt-0">
           <span className="text-2xl md:text-3xl font-bold text-center">
-            I am Shyam Zod <br /> Software Engineer
+            I am Shyam Zod, <br />a Software Engineer
           </span>
         </div>
         <div className="flex  justify-start mt-6 md:mt-0">
@@ -36,38 +38,59 @@ export default function BioComponent() {
       </div>
       <div className="sm:flex sm:flex-col md:flex md:flex-row mt-6 md:mt-0 md:justify-center md:items-center ">
         <div className="ml-8">
-          <div className="">
-            <img
-              className=" w-50 h-64 rounded-xl object-cover shadow"
-              src="/ProfilPic.jpg"
-              alt="Shyam Zod"
-            />
+          <div className=" rounded-full">
+            <Image
+              src="/Profile.gif"
+              alt="ProfilePic"
+              width={220}
+              height={220}
+              className=" rounded-full"
+            ></Image>
           </div>
           <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
             <div className="flex flex-row  items-center justify-between">
               <div>
-                <a href="/" className="text-blue-500 hover:underline">
+                <a
+                  href="https://www.linkedin.com/in/shyam-zod-120421141/"
+                  target="_blank"
+                  className="text-blue-500 hover:underline"
+                >
                   <FaLinkedin className="mr-5 text-3xl text-white" />
                 </a>
               </div>
               <div>
-                <a href="/" className="text-blue-500 hover:underline">
+                <a
+                  href="https://x.com/shyam_zod"
+                  target="_blank"
+                  className="text-blue-500 hover:underline"
+                >
                   <FaTwitter className="mr-5 text-3xl text-white" />
                 </a>
               </div>
               <div>
-                <a href="/" className="text-blue-500 hover:underline">
-                  <FaCode className="mr-5 text-3xl text-white" />
-                </a>
-              </div>
-
-              <div>
-                <a href="/" className="text-blue-500 hover:underline">
+                <a
+                  href="https://github.com/shyamzod"
+                  target="_blank"
+                  className="text-blue-500 hover:underline"
+                >
                   <FaGithub className="mr-5 text-3xl text-white" />
                 </a>
               </div>
               <div>
-                <a href="/" className="text-blue-500 hover:underline">
+                <a
+                  href="https://leetcode.com/u/shyamzod/"
+                  target="_blank"
+                  className="text-blue-500 hover:underline"
+                >
+                  <FaCode className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/zod_shyam/"
+                  target="_blank"
+                  className="text-blue-500 hover:underline"
+                >
                   <FaInstagram className="mr-5 text-3xl text-white" />
                 </a>
               </div>
