@@ -20,10 +20,10 @@ export default function Skills() {
         <h3 className="text-4xl font-bold mb-5 mt-5 text-center">Skills</h3>
       </div>
 
-      <div className="space-y-10 md:space-y-0 md:flex md:flex-row md:space-x-10">
-        <div className="p-6 bg-gray-800 rounded-2xl">
+      <div className="space-y-4 md:space-y-0 md:flex md:flex-row md:space-x-10">
+        <div className="px-10 py-2 bg-gray-800 rounded-2xl">
           <div className="text-center">
-            <h5 className="text-xl font-semibold">Frontend</h5>
+            <h5 className="text-lg font-semibold">Frontend</h5>
           </div>
           <div className="flex justify-center items-center space-x-4 text-3xl mt-4">
             {Frontend.map((x, index) => (
@@ -39,9 +39,9 @@ export default function Skills() {
             ))}
           </div>
         </div>
-        <div className="p-6 bg-gray-800 rounded-2xl">
+        <div className="px-10 py-2 bg-gray-800 rounded-2xl">
           <div className="text-center">
-            <h5 className="text-xl font-semibold">Backend</h5>
+            <h5 className="text-lg font-semibold">Backend</h5>
           </div>
           <div className="flex justify-center items-center space-x-4 text-3xl mt-4">
             {Backend.map((x, index) => (
@@ -57,9 +57,9 @@ export default function Skills() {
             ))}
           </div>
         </div>
-        <div className="p-6 bg-gray-800 rounded-2xl">
+        <div className="px-10 py-2 bg-gray-800 rounded-2xl">
           <div className="text-center">
-            <h5 className="text-xl font-semibold">Database</h5>
+            <h5 className="text-lg font-semibold">Database</h5>
           </div>
           <div className="flex justify-center items-center space-x-4 text-3xl mt-4">
             {Database.map((x, index) => (
@@ -77,9 +77,9 @@ export default function Skills() {
             ))}
           </div>
         </div>
-        <div className="p-6 bg-gray-800 rounded-2xl">
+        <div className="px-10 py-2 bg-gray-800 rounded-2xl">
           <div className="text-center">
-            <h5 className="text-xl font-semibold">Devops</h5>
+            <h5 className="text-lg font-semibold">Devops</h5>
           </div>
           <div className="flex justify-center items-center space-x-4 text-3xl mt-4">
             {Devops.map((x, index) => (

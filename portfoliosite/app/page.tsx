@@ -22,10 +22,8 @@ export default function Page() {
         <div className="mx-10">
           <Experience />
         </div>
-        <div className="md:flex md:flex-row">
-          <div className="mx-10">
-            <Project1 />
-          </div>
+        <div>
+          <Project1 />
         </div>
       </div>
     </div>
