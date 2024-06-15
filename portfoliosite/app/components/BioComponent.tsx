@@ -11,9 +11,11 @@ export default function BioComponent() {
           </span>
         </div>
         <div className="flex justify-center md:justify-end mt-6 md:mt-0">
-          <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
-            Download Resume
-          </button>
+          <a href="/Resume.pdf" download="/Resume.pdf">
+            <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
+              Download Resume
+            </button>
+          </a>
         </div>
       </div>
       <div className="flex flex-col items-center  mt-6 md:mt-0">
