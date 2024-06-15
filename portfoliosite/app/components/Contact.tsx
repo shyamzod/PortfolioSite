@@ -44,7 +44,6 @@ export default function Feedback() {
             </label>
             <textarea
               className="mt-1 p-2 w-full bg-gray-700 border border-gray-600 rounded-md text-white"
-              rows="3"
               name="bio"
               id="bio"
             ></textarea>
