@@ -11,6 +11,7 @@ import {
   FaThreads,
 } from "react-icons/fa6";
 import Image from "next/image";
+import DownloadButton from "./DownloadButton";
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
@@ -25,14 +26,15 @@ export default function BioComponent() {
         </div>
         <div className="flex  justify-start mt-6 md:mt-0">
           <a href="/Resume.pdf" download="/Resume.pdf">
-            <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
+            {/* <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
               <div className="flex flex-row space-x-2">
                 <div>Download Resume</div>{" "}
                 <div className="mt-1">
                   <FaDownload />
                 </div>
               </div>
-            </button>
+            </button> */}
+            <DownloadButton />
           </a>
         </div>
       </div>
