@@ -12,9 +12,14 @@ export default function Page() {
     <div>
       <Navbar />
       <BioComponent />
-      {/* <Skills /> */}
-      <Experience />
-      {/* <Projects /> */}
+      <div className="flex flex-row ">
+        <div className="mx-10">
+          <Experience />
+        </div>
+        <div className="mx-10">
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }

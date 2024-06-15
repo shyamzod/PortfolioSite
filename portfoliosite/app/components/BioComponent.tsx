@@ -1,7 +1,18 @@
+import {
+  FaInstagram,
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaCode,
+  FaDownload,
+  FaLocationDot,
+  FaPhone,
+  FaEnvelope,
+} from "react-icons/fa6";
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
-      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6 rounded-xl md:rounded-br-3xl text-white">
+      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6  md:rounded-br-full text-white">
         <div className="mt-2 text-lg md:text-xl font-semibold">
           Welcome to my portfolio
         </div>
@@ -10,43 +21,75 @@ export default function BioComponent() {
             I am Shyam Zod <br /> Software Engineer
           </span>
         </div>
-        <div className="flex justify-center md:justify-end mt-6 md:mt-0">
+        <div className="flex  justify-start mt-6 md:mt-0">
           <a href="/Resume.pdf" download="/Resume.pdf">
             <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
-              Download Resume
+              <div className="flex flex-row space-x-2">
+                <div>Download Resume</div>{" "}
+                <div className="mt-1">
+                  <FaDownload />
+                </div>
+              </div>
             </button>
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center  mt-6 md:mt-0">
-        {/* <img
-          className="md:w-11/12 rounded-xl object-cover shadow"
-          src="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg"
-          alt="Shyam Zod"
-        /> */}
-        <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
-          Follow On --
-          <div className="flex flex-row  items-center justify-between">
-            <div>
-              <a href="/" className="text-blue-500 hover:underline">
-                LinkedIn
-              </a>
+      <div className="flex flex-row mt-6 md:mt-0">
+        <div className="ml-8">
+          <img
+            className=" w-50 h-64 rounded-xl object-cover shadow"
+            src="/ProfilPic.jpg"
+            alt="Shyam Zod"
+          />
+          <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
+            <div className="flex flex-row  items-center justify-between">
+              <div>
+                <a href="/" className="text-blue-500 hover:underline">
+                  <FaLinkedin className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
+              <div>
+                <a href="/" className="text-blue-500 hover:underline">
+                  <FaTwitter className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
+              <div>
+                <a href="/" className="text-blue-500 hover:underline">
+                  <FaCode className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
+
+              <div>
+                <a href="/" className="text-blue-500 hover:underline">
+                  <FaGithub className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
+              <div>
+                <a href="/" className="text-blue-500 hover:underline">
+                  <FaInstagram className="mr-5 text-3xl text-white" />
+                </a>
+              </div>
             </div>
-            <div>
-              <a href="/" className="text-blue-500 hover:underline">
-                Twitter
-              </a>
+          </div>
+        </div>
+        <div className="py-20 space-y-2 ">
+          <div className="flex flex-row space-x-2">
+            <div className="text-xl">
+              <FaLocationDot />
             </div>
-            <div>
-              <a href="/" className="text-blue-500 hover:underline">
-                Github
-              </a>
+            <div>Pune,Maharashtra,India.</div>
+          </div>
+          <div className="flex flex-row space-x-2">
+            <div className="text-xl">
+              <FaPhone />
             </div>
-            <div>
-              <a href="/" className="text-blue-500 hover:underline">
-                Instagram
-              </a>
+            <div>+91 8788583119</div>
+          </div>
+          <div className="flex flex-row space-x-2">
+            <div className="text-xl">
+              <FaEnvelope />
             </div>
+            <div>ShyamZod03@gmail.com</div>
           </div>
         </div>
       </div>
