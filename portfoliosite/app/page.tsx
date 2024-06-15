@@ -11,13 +11,17 @@ export default function Page() {
     // </div>
     <div>
       <Navbar />
-      <BioComponent />
-      <div className="flex flex-row ">
-        <div className="mx-10">
-          <Experience />
+      <div className="flex justify-center flex-col">
+        <div className="flex justify-center items-center">
+          <BioComponent />
         </div>
-        <div className="mx-10">
-          <Projects />
+        <div className="md:flex md:flex-row">
+          <div className="mx-10">
+            <Experience />
+          </div>
+          <div className="mx-10">
+            <Projects />
+          </div>
         </div>
       </div>
     </div>

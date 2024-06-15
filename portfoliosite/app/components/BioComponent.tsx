@@ -12,7 +12,7 @@ import {
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
-      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6  md:rounded-br-full text-white">
+      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6  md:rounded-br-3xl text-white">
         <div className="mt-2 text-lg md:text-xl font-semibold">
           Welcome to my portfolio
         </div>
@@ -34,13 +34,15 @@ export default function BioComponent() {
           </a>
         </div>
       </div>
-      <div className="flex flex-row mt-6 md:mt-0">
+      <div className="sm:flex sm:flex-col md:flex md:flex-row mt-6 md:mt-0 md:justify-center md:items-center ">
         <div className="ml-8">
-          <img
-            className=" w-50 h-64 rounded-xl object-cover shadow"
-            src="/ProfilPic.jpg"
-            alt="Shyam Zod"
-          />
+          <div className="">
+            <img
+              className=" w-50 h-64 rounded-xl object-cover shadow"
+              src="/ProfilPic.jpg"
+              alt="Shyam Zod"
+            />
+          </div>
           <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
             <div className="flex flex-row  items-center justify-between">
               <div>
@@ -72,8 +74,8 @@ export default function BioComponent() {
             </div>
           </div>
         </div>
-        <div className="py-20 space-y-2 ">
-          <div className="flex flex-row space-x-2">
+        <div className="sm:ml-20 md:ml-0 py-20 space-y-2">
+          <div className="flex flex-row space-x-2 sm:ml-20 md:ml-0">
             <div className="text-xl">
               <FaLocationDot />
             </div>

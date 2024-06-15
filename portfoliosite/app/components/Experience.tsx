@@ -5,7 +5,7 @@ export default function Experience() {
         <h3 className="text-4xl font-bold mb-10 text-center">Experience</h3>
       </div>
 
-      <div className="relative bg-white dark:bg-gray-900 mb-10 rounded-2xl w-full max-w-3xl">
+      <div className="relative bg-white dark:bg-gray-900 mb-10 rounded-2xl w-full max-w-3xl sm:justify-center sm:ml-20">
         <div className="space-y-10">
           <div className="bg-stone-950 p-8 rounded-xl relative flex md:flex-row flex-col items-start md:items-center transform transition-transform duration-300 hover:scale-105">
             <div className="absolute transform -translate-x-1/2 w-6 h-6 bg-purple-950 rounded-full"></div>
