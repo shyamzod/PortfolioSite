@@ -1,6 +1,14 @@
 import Image from "next/image";
-
-export default function ProjectCard({ ProjectName, imagepath, techstack }) {
+interface ProjectCardProps {
+  ProjectName: string;
+  imagepath: string;
+  techstack: string;
+}
+export default function ProjectCard({
+  ProjectName,
+  imagepath,
+  techstack,
+}: ProjectCardProps) {
   return (
     <div className="relative flex w-80 mt-10 flex-col rounded-xl bg-gray-800 bg-clip-border text-white shadow-md transform transition-transform duration-300 hover:scale-105">
       <div className="h-48 w-full relative rounded-t-xl overflow-hidden">
