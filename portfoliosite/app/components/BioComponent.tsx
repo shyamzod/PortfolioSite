@@ -4,18 +4,16 @@ import {
   FaTwitter,
   FaLinkedin,
   FaCode,
-  FaDownload,
   FaLocationDot,
   FaPhone,
   FaEnvelope,
-  FaThreads,
 } from "react-icons/fa6";
 import Image from "next/image";
 import DownloadButton from "./DownloadButton";
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
-      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6  md:rounded-br-3xl text-white">
+      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6  md:rounded-br-full pr-32 text-white">
         <div className="mt-2 text-lg md:text-xl font-semibold">
           Welcome to my portfolio
         </div>
@@ -26,14 +24,6 @@ export default function BioComponent() {
         </div>
         <div className="flex  justify-start mt-6 md:mt-0">
           <a href="/Resume.pdf" download="/Resume.pdf">
-            {/* <button className="bg-white text-black rounded-br-2xl rounded-bl-2xl rounded-tr-2xl p-3 mb-4">
-              <div className="flex flex-row space-x-2">
-                <div>Download Resume</div>{" "}
-                <div className="mt-1">
-                  <FaDownload />
-                </div>
-              </div>
-            </button> */}
             <DownloadButton />
           </a>
         </div>
@@ -46,7 +36,7 @@ export default function BioComponent() {
               alt="ProfilePic"
               width={220}
               height={220}
-              className=" rounded-full"
+              className=" rounded-full border-4"
             ></Image>
           </div>
           <div className="mt-4 text-lg flex flex-row dark:text-gray-300 items-center">
@@ -57,7 +47,7 @@ export default function BioComponent() {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  <FaLinkedin className="mr-5 text-3xl text-white" />
+                  <FaLinkedin className="mr-5 text-3xl text-white transform transition-transform duration-100 hover:scale-150" />
                 </a>
               </div>
               <div>
@@ -66,7 +56,7 @@ export default function BioComponent() {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  <FaTwitter className="mr-5 text-3xl text-white" />
+                  <FaTwitter className="mr-5 text-3xl text-white transform transition-transform duration-100 hover:scale-150" />
                 </a>
               </div>
               <div>
@@ -75,7 +65,7 @@ export default function BioComponent() {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  <FaGithub className="mr-5 text-3xl text-white" />
+                  <FaGithub className="mr-5 text-3xl text-white transform transition-transform duration-100 hover:scale-150" />
                 </a>
               </div>
               <div>
@@ -84,7 +74,7 @@ export default function BioComponent() {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  <FaCode className="mr-5 text-3xl text-white" />
+                  <FaCode className="mr-5 text-3xl text-white transform transition-transform duration-100 hover:scale-150" />
                 </a>
               </div>
               <div>
@@ -93,7 +83,7 @@ export default function BioComponent() {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  <FaInstagram className="mr-5 text-3xl text-white" />
+                  <FaInstagram className="mr-5 text-3xl text-white transform transition-transform duration-100 hover:scale-150" />
                 </a>
               </div>
             </div>

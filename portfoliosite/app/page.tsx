@@ -7,9 +7,6 @@ import Skills from "./components/Skills";
 
 export default function Page() {
   return (
-    // <div className="flex items-center justify-center">
-    //   <h1>Under Construction!! Planning a deployment soon</h1>
-    // </div>
     <div>
       <Navbar />
       <div className="flex justify-center flex-col mb-20">

@@ -33,7 +33,11 @@ export default function Skills() {
                   alt={x}
                   width={40}
                   height={40}
-                  className={x === "nextjs.svg" ? "bg-white rounded-lg" : ""}
+                  className={
+                    x === "nextjs.svg"
+                      ? "bg-white rounded-lg transform transition-transform duration-100 hover:scale-150"
+                      : "transform transition-transform duration-100 hover:scale-150 rounded-lg"
+                  }
                 />
               </div>
             ))}
@@ -51,7 +55,11 @@ export default function Skills() {
                   alt={x}
                   width={40}
                   height={40}
-                  className={x === "nextjs.svg" ? "bg-white rounded-lg" : ""}
+                  className={
+                    x === "nextjs.svg"
+                      ? "bg-white rounded-lg transform transition-transform duration-100 hover:scale-150"
+                      : "transform transition-transform duration-100 hover:scale-150 rounded-lg"
+                  }
                 />
               </div>
             ))}
@@ -70,7 +78,9 @@ export default function Skills() {
                   width={40}
                   height={40}
                   className={
-                    x === "MongoDB.svg" ? "bg-white rounded-lg p-1" : ""
+                    x === "MongoDB.svg"
+                      ? "bg-white rounded-lg transform transition-transform duration-100 hover:scale-150"
+                      : "transform transition-transform duration-100 hover:scale-150 rounded-lg"
                   }
                 />
               </div>
@@ -89,7 +99,11 @@ export default function Skills() {
                   alt={x}
                   width={40}
                   height={40}
-                  className={x === "nextjs.svg" ? "bg-white rounded-lg" : ""}
+                  className={
+                    x === "nextjs.svg"
+                      ? "bg-white rounded-lg transform transition-transform duration-100 hover:scale-150"
+                      : "transform transition-transform duration-100 hover:scale-150 rounded-lg"
+                  }
                 />
               </div>
             ))}

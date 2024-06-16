@@ -1,7 +1,7 @@
 export default function Button() {
   return (
     <div>
-      <button className="group relative inline-flex items-center justify-center w-[200px] h-[50px] bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-xl shadow-lg transform scale-100 transition-transform duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300">
+      <button className="group relative inline-flex items-center justify-center w-[200px] h-[50px] bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-br-3xl shadow-lg transform scale-100 transition-transform duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300">
         Download Resume
         <svg
           width="30px"
