@@ -7,7 +7,7 @@ export default function Project1() {
         <h3 className="text-4xl font-bold mt-10 text-center">Projects</h3>
       </div>
       <div className="sm:flex sm:flex-col sm:justify-center sm:items-center">
-        <div className="sm:flex sm:flex-col sm:justify-center sm:items-center md:flex md:flex-row space-x-6">
+        <div className="sm:flex sm:flex-col sm:justify-center sm:items-center md:flex md:flex-row md:space-x-6">
           <ProjectCard
             ProjectName="DeXchange"
             imagepath="/Projects/DeXchange.png"

@@ -13,7 +13,7 @@ import DownloadButton from "./DownloadButton";
 export default function BioComponent() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-96 items-center md:items-stretch bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg">
-      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6 md:pr-32 text-white">
+      <div className="flex flex-col justify-between bg-red-800 w-full md:w-1/2 p-6 md:pr-32 md:rounded-br-full text-white">
         <div className="mt-2 text-lg md:text-xl font-semibold">
           Welcome to my portfolio
         </div>
