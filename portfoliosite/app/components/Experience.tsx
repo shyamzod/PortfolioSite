@@ -1,4 +1,4 @@
-export default function Experience() {
+export default function Experience() {More actions
   return (
     <div className="flex flex-col items-center mt-10">
       <div>
@@ -29,6 +29,18 @@ export default function Experience() {
                 <span>Sept 2021 - Sept 2023</span>
               </div>
               <p>Software Engineer</p>
+            </div>
+          </div>
+          <div className="bg-stone-950 p-8 rounded-xl relative flex md:flex-row flex-col items-start md:items-center transform transition-transform duration-300 hover:scale-105">Add commentMore actions
+            <div className="absolute transform -translate-x-1/2 w-6 h-6 bg-red-950 rounded-full"></div>
+            <div className="flex-1 md:ml-10 md:pl-6 md:border-l md:border-gray-300 dark:border-gray-700 pt-4 md:pt-0">
+              <div className="flex justify-between items-center mb-2 md:mb-0">
+                <h4 className="text-xl font-semibold text-white">
+                  Alive Tech Services
+                </h4>
+                <span>January 2021 - June 2021</span>
+              </div>
+              <p>Intern</p>
             </div>
           </div>
         </div>
