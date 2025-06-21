@@ -14,10 +14,10 @@ export default function Page() {
           <BioComponent />
         </div>
         <div>
-          <Skills />
+          <Experience />
         </div>
         <div className="mx-10">
-          <Experience />
+          <Skills />
         </div>
         <div>
           <Project1 />
